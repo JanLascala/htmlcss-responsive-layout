@@ -13,9 +13,23 @@
 
 }
 
+img {
+    max-width: 100%;
+}
 
+@media screen and (max-width: 480px) {
+    header {
+        background-color: var(--gboo-primary-lighter);
+        color: var(--gboo-primary-accent);
+    }
 
+    .container {
+        width: 100%;
+        margin: auto;
+    }
 
+    .row {
+        display: flex;
+    }
 
-
-@media screen and (min-width: 480px)
+}
