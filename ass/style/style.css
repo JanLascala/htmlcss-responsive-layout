@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-style: dotted;
+}
+
+:root {
+    --gboo-primary-light: #f6f5f3;
+    --gboo-primary-lighter: #ffffff;
+    --gboo-primary-accent: #ff9614;
+    --gboo-primary-dark: #7c69a4;
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 480px)
