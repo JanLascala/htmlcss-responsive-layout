@@ -8,10 +8,14 @@
 :root {
     --gboo-primary-light: #f6f5f3;
     --gboo-primary-lighter: #ffffff;
+    --gboo-secondary-darker: #b7b5b3;
     --gboo-primary-accent: #ff9614;
     --gboo-primary-dark: #7c69a4;
+    --gboo-primary-darker: #4e3969;
 
 }
+
+
 
 /*utilities? general aspect*/
 
@@ -25,6 +29,7 @@ ul {
 
 header {
     background-color: var(--gboo-primary-light);
+    color: var(--gboo-primary-accent);
 }
 
 main {
@@ -36,13 +41,17 @@ footer {
     color: var(--gboo-primary-lighter);
 }
 
+.category {
+    color: var(--gboo-secondary-darker);
+}
+
+.recipe-name {
+    color: var(--gboo-primary-darker);
+}
+
 /*smartphone view*/
 @media screen and (max-width: 480px) {
 
-    header {
-        background-color: var(--gboo-primary-lighter);
-        color: var(--gboo-primary-accent);
-    }
 
     .container {
         width: 100%;
@@ -56,6 +65,10 @@ footer {
     .main-content {
         text-align: center;
 
+    }
+
+    span {
+        display: none;
     }
 
 }
