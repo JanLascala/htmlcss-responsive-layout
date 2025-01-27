@@ -37,4 +37,9 @@ ul {
         display: flex;
     }
 
+    .main-content {
+        text-align: center;
+
+    }
+
 }
