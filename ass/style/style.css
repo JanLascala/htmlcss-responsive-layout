@@ -17,7 +17,12 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style: none;
+}
+
 @media screen and (max-width: 480px) {
+
     header {
         background-color: var(--gboo-primary-lighter);
         color: var(--gboo-primary-accent);
