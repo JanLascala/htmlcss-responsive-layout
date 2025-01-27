@@ -13,6 +13,8 @@
 
 }
 
+/*utilities? general aspect*/
+
 img {
     max-width: 100%;
 }
@@ -21,6 +23,20 @@ ul {
     list-style: none;
 }
 
+header {
+    background-color: var(--gboo-primary-light);
+}
+
+main {
+    background-color: var(--gboo-primary-lighter);
+}
+
+footer {
+    background-color: var(--gboo-primary-dark);
+    color: var(--gboo-primary-lighter);
+}
+
+/*smartphone view*/
 @media screen and (max-width: 480px) {
 
     header {
