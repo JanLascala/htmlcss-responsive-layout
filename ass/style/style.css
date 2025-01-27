@@ -98,6 +98,8 @@ footer {
         margin: auto;
     }
 
+
+
     .row {
         display: flex;
         flex-wrap: wrap;
@@ -132,4 +134,31 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+}
+
+/*tablet*/
+
+@media screen and (max-width: 576px) {
+
+    li {
+        display: inline;
+
+    }
+
+    .container-2 {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .social-btn>span {
+        display: none;
+    }
+
+    .social-btn {}
+
+
+
+
+
 }
